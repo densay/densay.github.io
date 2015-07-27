@@ -1,0 +1,29 @@
+<!DOCTYPE html> <!--document is an html document-->
+<html>
+	<head>
+		<meta charset=utf-8 /><!--info for the browser(default language)-->
+		<title>Libraries</title>
+		<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' /> <!--giving more info-->
+		<!--import for the mapbox API-->
+		<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.js'></script>
+			<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.9/mapbox.css' rel='stylesheet' /> <!--imports styling-->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<style>
+		  body { margin:0; padding:0; }
+		  #container { position:relative; margin: 0px auto; width: 80%;}
+		  #map { position:relative; height: 500px; width:100%; }
+		  .popupimage { width: 200px; }
+		</style>
+	</head>
+	<body>
+
+	<div id='container'>
+
+		<h1>Congratulations! Your code has been submitted</h1>
+		<h2>Now find a Library near you </h2>
+		<div id='map'></div>
+	</div>
+
+	<script src='submitscript.js'></script><!--accessing the other javascript file-->
+	</body>
+</html>
