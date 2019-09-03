@@ -33,6 +33,8 @@ p{
 .links{
 	font-family: "Courier New";
 	padding-top: 15px;
+	padding-right: 30px;
+	padding-left: 30px;
 
 }
 .links:hover{
